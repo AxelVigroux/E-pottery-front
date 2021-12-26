@@ -1,3 +1,3 @@
 export const config = {
-  api_url: "https://epottery.herokuapp.com",
+  api_url: "http://epottery.herokuapp.com",
 };
