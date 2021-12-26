@@ -14,7 +14,7 @@ import Cart from "./containers/cart";
 import CreatorProfile from "./containers/creators/creatorProfile";
 import Collection from "./containers/collection";
 import Contact from "./containers/contact";
-import Payment from "./containers/payment";
+// import Payment from "./containers/payment";
 import { Switch, Route } from "react-router-dom";
 
 function App() {
@@ -35,7 +35,7 @@ function App() {
         <Route exact path="/cart" component={Cart} />
         <Route exact path="/collection" component={Collection} />
         <Route exact path="/contact" component={Contact} />
-        <Route exact path="/payment" component={Payment} />
+        {/* <Route exact path="/payment" component={Payment} /> */}
       </Switch>
     </div>
   );
