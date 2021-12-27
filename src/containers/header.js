@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../App.css";
 import { connect } from "react-redux";
 
 const Header = (props) => {
@@ -20,7 +19,7 @@ const Header = (props) => {
       <div className="dynamics-header">
         <Link to="/profile">Profile</Link>
         <Link to="/login">Log In</Link>
-        <Link to="/addProduct">ADD PRODU</Link>
+        <Link to="/addProduct">ADD PRODUCT</Link>
         {/* {props.user.isLogged === false && <Link to="/login">Log In</Link>}
         {props.user.user.role === "customer" && (
           <Link to="/profileCustomer">Profile</Link>
