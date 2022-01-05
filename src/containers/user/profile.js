@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { logged_in_user } from "../../actions/user/userAction";
 import * as reactRedux from "react-redux";
 import { Link } from "react-router-dom";

@@ -34,7 +34,7 @@ const Home = (props) => {
           <Link to="/products">
             <ul>
               <li>
-                <img src={arrow} className="arrow"></img>
+                <img src={arrow} className="arrow" alt="arrow picture"></img>
               </li>
               <li>Explore our products</li>
             </ul>
@@ -104,7 +104,7 @@ const Home = (props) => {
                 }}
               />
               <button className="news-button" type="submit" value="Register">
-                <img src={arrow} className="arrow-news" />
+                <img src={arrow} className="arrow-news" alt="arrow picture" />
               </button>
             </form>
           </div>
